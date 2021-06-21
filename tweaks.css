@@ -1,5 +1,33 @@
 #wrapper {
-    padding-left: 15%;
+    padding-left: 10%;
     font-size: 13.5px;
 }
 
+/* Responsive */
+#app_body h1 {
+  margin-bottom: 10px;
+  width:50%;
+}
+
+.location {
+  margin-bottom:2%;
+  margin-bottom:2%;
+}
+
+#apply_button {
+  margin-top:70px;
+}
+
+
+/* Handheld */
+@media (max-width: 640px)
+#app_body h1 {
+  font-size:1.2em;
+  line-height:1.2em;
+  width:50%;
+}
+@media (max-width: 640px)
+#apply_button {
+  margin-top:70px;
+  margin-right:10px;
+}
