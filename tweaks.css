@@ -1,9 +1,12 @@
+
+
+/* Responsive */
+
 #wrapper {
     padding-left: 10%;
     font-size: 13.5px;
 }
 
-/* Responsive */
 #app_body h1 {
   margin-bottom: 10px;
   width:50%;
@@ -24,10 +27,16 @@
 #app_body h1 {
   font-size:1.2em;
   line-height:1.2em;
-  width:50%;
+  width:60%;
+}
+@media (max-width: 640px)
+#wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 13.5px;
 }
 @media (max-width: 640px)
 #apply_button {
   margin-top:70px;
-  margin-right:10px;
+  margin-right:12px;
 }
