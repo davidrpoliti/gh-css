@@ -7,6 +7,9 @@
     font-size: 13.5px;
     color: #242A30;
 }
+#app_body {
+    max-width: 80%;
+}
 
 #app_body h1 {
   margin-bottom: 10px;
