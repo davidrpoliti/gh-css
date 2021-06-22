@@ -1,37 +1,42 @@
 
 
 /* Responsive */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #wrapper {
+        padding-left: 10%;
+        font-size: 13.5px;
+        color: #242A30;
+        line-height: 1.6em;
+    }
 
-#wrapper {
-    padding-left: 10%;
-    font-size: 13.5px;
-    color: #242A30;
-    line-height: 1.6em;
+    #app_body {
+        max-width: 80%;
+    }
+
+    #app_body h1 {
+      margin-bottom: 10px;
+      font-size: 1.4em;
+      line-height: 1.2em;
+      width: 90%;
+    }
+
+    .location {
+      margin-bottom: 2%;
+      margin-bottom: 2%;
+    }
+
+    #apply_button {
+      margin-top: 60px;
+    }
 }
 
-#app_body {
-    max-width: 80%;
-}
 
-#app_body h1 {
-  margin-bottom: 10px;
-  font-size: 1.4em;
-  line-height: 1.2em;
-  width: 90%;
-}
-
-.location {
-  margin-bottom: 2%;
-  margin-bottom: 2%;
-}
-
-#apply_button {
-  margin-top: 60px;
-}
-
-
-
-@media screen and (max-width: 480px) {
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
     #app_body {
         max-width: 100%;
     }
