@@ -29,14 +29,15 @@
   line-height:1.2em;
   width:60%;
 }
-@media (max-width: 640px)
 #wrapper {
-    padding-left: 0%;
-    padding-right: 5%;
-    font-size: 13.5px;
+    padding-left: 5%;
+    font-size: 15px;
+    line-height:22px
 }
-@media (max-width: 640px)
 #apply_button {
   margin-top:70px;
   margin-right:12px;
+}
+li {
+margin-left: -10px;
 }
