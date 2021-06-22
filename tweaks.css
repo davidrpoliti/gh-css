@@ -1,4 +1,6 @@
-
+body {
+  color: #242A30;
+}
 
 /* Responsive */
 @media screen 
@@ -7,7 +9,6 @@
     #wrapper {
         padding-left: 10%;
         font-size: 13.5px;
-        color: #242A30;
         line-height: 1.6em;
     }
 
@@ -17,7 +18,7 @@
 
     #app_body h1 {
       margin-bottom: 10px;
-      font-size: 1.4em;
+      font-size: 1.6em;
       line-height: 1.2em;
       width: 90%;
     }
@@ -44,6 +45,7 @@
       font-size: 1.4em;
       line-height: 1.2em;
       width: 60%;
+      margin-bottom:5px;
     }
     #app_body h1 strong {
       line-height: 1.2em;
