@@ -6,52 +6,53 @@
     padding-left: 10%;
     font-size: 13.5px;
     color: #242A30;
-    line-height:1.6em;
+    line-height: 1.6em;
 }
+
 #app_body {
     max-width: 80%;
 }
 
 #app_body h1 {
   margin-bottom: 10px;
-  font-size:1.4em;
+  font-size: 1.4em;
   line-height: 1.2em;
-  width:90%;
+  width: 90%;
 }
 
 .location {
-  margin-bottom:2%;
-  margin-bottom:2%;
+  margin-bottom: 2%;
+  margin-bottom: 2%;
 }
 
 #apply_button {
-  margin-top:60px;
+  margin-top: 60px;
 }
 
 
-/* Handheld */
-@media (max-width: 640px)
-#app_body {
-    max-width:100%;
-}
-#app_body h1 {
-  font-size:1.4em;
-  line-height: 1.2em;
-  width:60%;
-}
-#app_body h1 strong {
-  line-height:1.2em;
-}
-#wrapper {
-    color: #242A30;
-    padding-left: 5%;
-    font-size: 15px;
-    line-height:22px
-}
-#apply_button {
-  margin-top:60px;
-  margin-right:12px;
-}
-li {
-    margin-left: -10px;
+
+@media screen and (max-width: 640px) {
+    #app_body {
+        max-width: 100%;
+    }
+    #app_body h1 {
+      font-size: 1.4em;
+      line-height: 1.2em;
+      width: 60%;
+    }
+    #app_body h1 strong {
+      line-height: 1.2em;
+    }
+    #wrapper {
+        padding-left: 5%;
+        font-size: 15px;
+        line-height: 22px
+    }
+    #apply_button {
+      margin-top: 60px;
+      margin-right: 12px;
+    }
+    li {
+        margin-left: -10px;
+    }
 }
