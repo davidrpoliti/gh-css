@@ -39,6 +39,9 @@
   line-height:1.2em;
   width:60%;
 }
+#app_body h1 strong {
+  line-height:1.2em;
+}
 #wrapper {
     color: #242A30;
     padding-left: 5%;
