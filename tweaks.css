@@ -12,11 +12,11 @@
     max-width: 80%;
 }
 
-#app_body h1 {
+h1.app-title {
   margin-bottom: 10px;
   font-size:22px;
   line-height:29px;
-  width:70%;
+  width:90%;
 }
 
 .location {
