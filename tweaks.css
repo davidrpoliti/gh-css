@@ -25,6 +25,7 @@ li {
       font-size: 1.6em;
       line-height: 1.2em;
       width: 90%;
+      color:#000000;
     }
 
     .location {
@@ -58,6 +59,7 @@ li {
       line-height: 1.4em;
       width: 60%;
       margin-bottom:5px;
+      color:#000000;
     }
     #app_body h1 strong {
       line-height: 1.2em;
