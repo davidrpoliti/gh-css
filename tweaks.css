@@ -31,7 +31,7 @@
 
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 480px) {
     #app_body {
         max-width: 100%;
     }
