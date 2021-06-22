@@ -1,17 +1,21 @@
 body {
   color: #242A30;
 }
-
+p {
+  line-height:1.5em;
+}
+li {
+  margin-bottom:6px;
+}
 /* Responsive */
 @media screen 
   and (min-device-width: 1200px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     #wrapper {
         padding-left: 10%;
-        font-size: 13.5px;
+        font-size: 1.2em;
         line-height: 1.6em;
     }
-
     #app_body {
         max-width: 80%;
     }
