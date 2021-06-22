@@ -30,6 +30,9 @@
 
 /* Handheld */
 @media (max-width: 640px)
+#app_body {
+    max-width: auto;
+}
 #app_body h1 {
   font-size:1em;
   line-height:1.2em;
