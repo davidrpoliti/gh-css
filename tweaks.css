@@ -39,9 +39,11 @@ li {
     }
    .accessible #apply_button {
       background-color:#438E29;
+      font-weight: 600;
     }
     .accessible #apply_button:hover {
       background-color:#51AF33;
+      font-weight: 600;
     }
     
 }
@@ -75,9 +77,11 @@ li {
     }
     .accessible #apply_button {
       background-color:#438E29;
+      font-weight: 600;
     }
     .accessible #apply_button:hover {
       background-color:#51AF33;
+      font-weight: 600;
     }
     li {
         margin-left: -10px;
