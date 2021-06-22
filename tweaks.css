@@ -5,11 +5,13 @@
 #wrapper {
     padding-left: 10%;
     font-size: 13.5px;
+    color: #242A30;
 }
 
 #app_body h1 {
   margin-bottom: 10px;
   width:50%;
+  font-size:22px;
 }
 
 .location {
@@ -18,24 +20,25 @@
 }
 
 #apply_button {
-  margin-top:70px;
+  margin-top:60px;
 }
 
 
 /* Handheld */
 @media (max-width: 640px)
 #app_body h1 {
-  font-size:1.2em;
+  font-size:1em;
   line-height:1.2em;
   width:60%;
 }
 #wrapper {
+    color: #242A30;
     padding-left: 5%;
     font-size: 15px;
     line-height:22px
 }
 #apply_button {
-  margin-top:70px;
+  margin-top:60px;
   margin-right:12px;
 }
 li {
